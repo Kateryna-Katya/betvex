@@ -79,3 +79,34 @@ margin-bottom: 32px;
         display: block;
     }
 }
+.disclaimer-section{
+    background-image: url("/img/disckaimer/disc-mob.png"), linear-gradient(180deg, #0e6800 97.12%);
+    background-position: top center, top center;
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+}
+.disclaimer-title{
+        line-height: 1.16667;
+        color: #fffd1f;
+        text-align:left;
+}
+.disclaimer-text{
+    margin-top: 24px;
+        font-weight: 275;
+        font-size: 28px;
+        line-height: 1.14286;
+        text-transform: uppercase;
+        color: #fff;
+}
+.white{
+    font-weight: 700;
+}
+@media only screen and (min-width: 1439px) {
+.disclaimer-section {
+        background-image: url("/img/disckaimer/disc-desk.png"), linear-gradient(180deg, #0e6800 97.12%);
+
+    }
+    .disclaimer-text{
+font-size: 36px;
+    }
+}
