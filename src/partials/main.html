@@ -66,3 +66,41 @@ money tornado or something</p>
         <p class="scatter-text-two"><span class="span-white">Under that:</span><br/> When those Scatters hit, they're stuck there - kinda like heavy coins that just got stamped down.</p>
     </div>
 </section>
+<section class="demo-section" id="demo">
+    <div class="container">
+        <h2 class="demo-title">Try the Money Minter</h2>
+                <picture class="game">
+                    <source srcset="
+                                      /img/game/demo-desk.png 1x,
+                                      /img/game/demo-desk@2x.png 2x
+                                                           " media="(min-width: 1439px)" />
+                    <source srcset="
+                                      /img/game/demo-mob.png 1x,
+                                      /img/game/demo-mob@2x.png 2x
+                                                           " media="(max-width: 1438px)" />
+                    <img class="game-img" src="/img/game/demo-mob.png" alt="Play Free" loading="lazy" />
+                </picture>
+        <a class="demo-btn" href="#" data-game-url="https://demo.evoplay.games/demo/fullstate/html5/evoplay/thegreatestcatchbonusbuy"
+            target="gameIframe" onclick="showIframe(event)">
+            <picture>
+                <source srcset="
+                      /img/game/game-btn-desk.png 1x,
+                      /img/game/game-btn-desk@2x.png 2x
+                                           " media="(min-width: 1439px)" />
+                <source srcset="
+                      /img/game/game-btn-mob.png 1x,
+                      /img/game/game-btn-mob@2x.png 2x
+                                           " media="(max-width: 1438px)" />
+                <img class="demo-img" src="/img/game/game-btn-mob.png" alt="Play Free" loading="lazy" />
+            </picture>
+        </a>
+        
+        <div class="ifram-wrapper">
+            <iframe id="gameIframe" style="display: none; width: 100%; height: 600px; border: none; margin-top: 20px;"></iframe>
+        
+            <button id="closeIframeBtn" aria-label="Close" class="hidden-close-btn">
+              <img src="/img/game/close.png" alt="Close">
+            </button>
+        </div>
+    </div>
+</section>
