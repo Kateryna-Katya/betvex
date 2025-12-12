@@ -50,6 +50,9 @@ font-size: 14px;
         margin-bottom: 0;
        
     }
+    .link-terms{
+        text-decoration: underline;
+    }
 
     .footer-text {
         font-size: 14px;
