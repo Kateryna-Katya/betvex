@@ -110,3 +110,32 @@ margin-bottom: 32px;
 font-size: 36px;
     }
 }
+.about-section{
+    background-image: url("/img/about/about-mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 908px;
+}
+.about-wrapper{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+@media only screen and (min-width: 1439px) {
+.about-section {
+        background-image: url("/img/about/about-desk.png");
+height: 618px;
+    }
+    .about-container{
+        padding: 100px 120px;
+    }
+    .about-title{
+        text-align: left;
+    }
+    .about-wrapper{
+        margin-top: 60px;
+        width: 587px;
+    }
+}

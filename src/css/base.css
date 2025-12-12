@@ -22,5 +22,12 @@ h2{
     color: #fffd1f;
 }
 @media only screen and (min-width: 1439px) {
-  
+  body{
+      font-size: 24px;
+      line-height: 1.33333;
+  }
+ h2{
+  font-size: 64px;
+  line-height: 1.09375;
+ } 
 }
