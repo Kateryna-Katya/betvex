@@ -30,4 +30,8 @@ h2{
   font-size: 64px;
   line-height: 1.09375;
  } 
+ .span{
+  font-size: 24px;
+    line-height: 1.33333;
+ }
 }
