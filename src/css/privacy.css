@@ -3,6 +3,7 @@
 @import url('./container.css');
 @import url('./footer.css');
 @import url('./header.css');
+@import url('./cookie-popup.css');
 
 .background {
     background: #fff;
@@ -67,5 +68,8 @@ font-weight: 700;
 @media only screen and (min-width: 1439px) {
     .background {
         text-align: left;
+    }
+    .privacy-title{
+        margin-top: 120px;
     }
 }
