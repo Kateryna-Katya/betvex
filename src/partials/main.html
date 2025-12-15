@@ -69,17 +69,21 @@ money tornado or something</p>
 <section class="demo-section" id="demo">
     <div class="container">
         <h2 class="demo-title">Try the Money Minter</h2>
-                <picture class="game">
-                    <source srcset="
-                                      /img/game/demo-desk.png 1x,
-                                      /img/game/demo-desk@2x.png 2x
-                                                           " media="(min-width: 1439px)" />
-                    <source srcset="
-                                      /img/game/demo-mob.png 1x,
-                                      /img/game/demo-mob@2x.png 2x
-                                                           " media="(max-width: 1438px)" />
-                    <img class="game-img" src="/img/game/demo-mob.png" alt="Play Free" loading="lazy" />
-                </picture>
+<div class="demo-wrapper">
+    <picture class="game">
+        <source srcset="/img/game/demo-desk.png 1x, /img/game/demo-desk@2x.png 2x" media="(min-width: 1439px)" />
+        <source srcset="/img/game/demo-mob.png 1x, /img/game/demo-mob@2x.png 2x" media="(max-width: 1438px)" />
+        <img class="game-img" src="/img/game/demo-mob.png" alt="Play Free" loading="lazy" />
+    </picture>
+
+    <div class="iframe-wrapper">
+        <iframe id="gameIframe"></iframe>
+
+        <button id="closeIframeBtn" class="hidden-close-btn" aria-label="Close">
+            <img src="/img/game/close.png" alt="Close">
+        </button>
+    </div>
+</div>
         <a class="demo-btn" href="#" data-game-url="https://demo.evoplay.games/demo/fullstate/html5/evoplay/thegreatestcatchbonusbuy"
             target="gameIframe">
             <picture>
@@ -95,12 +99,6 @@ money tornado or something</p>
             </picture>
         </a>
         
-        <div class="ifram-wrapper">
-            <iframe id="gameIframe" style="display: none; width: 100%; height: 600px; border: none; margin-top: 20px;"></iframe>
-        
-            <button id="closeIframeBtn" aria-label="Close" class="hidden-close-btn">
-              <img src="/img/game/close.png" alt="Close">
-            </button>
-        </div>
+    
     </div>
 </section>

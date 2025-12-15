@@ -219,20 +219,45 @@ width: 655px;
     background-position: top center;
     background-size: cover;
 }
-.ifram-wrapper {
+.demo-wrapper {
     position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.hidden-close-btn {
-    display: none;
+.game-img {
+    width: 100%;
+    display: block;
+}
+
+/* iframe поверх картинки */
+.iframe-wrapper {
     position: absolute;
-    top: 2px;
-    right: 10px;
-    background-color: inherit;
-    width: 50px;
-    height: 50px;
+    top: 7%;
+    /* під екран у картинці */
+    left: 40%;
+    transform: translateX(-54%);
+    width: 68%;
+    height: 54%;
+    z-index: 5;
+}
+
+#gameIframe {
+    width: 138%;
+    height: 160%;
+    border: none;
+    display: none;
+    background: #000;
+}
+
+#closeIframeBtn {
+    position: absolute;
+    top: 10px;
+    right: -80px;
+    background: none;
     border: none;
     cursor: pointer;
+    display: none;
     z-index: 10;
 }
 .game-img{
