@@ -14,7 +14,7 @@
         rel="stylesheet">
     <title>Money Minter Hall</title>
     <script type="module" crossorigin src="/betvex/assets/main-B8yDi3oi.js"></script>
-    <link rel="stylesheet" crossorigin href="/betvex/assets/index-C6lRkUgg.css">
+    <link rel="stylesheet" crossorigin href="/betvex/assets/index-CKjquMDT.css">
   </head>
   <body>
     <header class="header" id="site-header">
@@ -136,11 +136,21 @@ money tornado or something</p>
 <section class="demo-section" id="demo">
     <div class="container">
         <h2 class="demo-title">Try the Money Minter</h2>
-                <picture class="game">
-                    <source srcset="/betvex/assets/demo-desk-DFW-3k9X.png 1x, /betvex/assets/demo-desk@2x-CRoxi9t6.png 2x" media="(min-width: 1439px)" />
-                    <source srcset="/betvex/assets/demo-mob-DNMyF9Fe.png 1x, /betvex/assets/demo-mob@2x-BE15N6Av.png 2x" media="(max-width: 1438px)" />
-                    <img class="game-img" src="/betvex/assets/demo-mob-DNMyF9Fe.png" alt="Play Free" loading="lazy" />
-                </picture>
+<div class="demo-wrapper">
+    <picture class="game">
+        <source srcset="/betvex/assets/demo-desk-DFW-3k9X.png 1x, /betvex/assets/demo-desk@2x-CRoxi9t6.png 2x" media="(min-width: 1439px)" />
+        <source srcset="/betvex/assets/demo-mob-DNMyF9Fe.png 1x, /betvex/assets/demo-mob@2x-BE15N6Av.png 2x" media="(max-width: 1438px)" />
+        <img class="game-img" src="/betvex/assets/demo-mob-DNMyF9Fe.png" alt="Play Free" loading="lazy" />
+    </picture>
+
+    <div class="iframe-wrapper">
+        <iframe id="gameIframe"></iframe>
+
+        <button id="closeIframeBtn" class="hidden-close-btn" aria-label="Close">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAH6SURBVHgB7ZgxTsMwFIafU3WgU29AjlBAVGKiPQF0qwIDN0CcgHICuEGZWiSG0hNUTEig0h4h3ICFLlVi/CIEVZU4fvbLgORvauI6+r84dl4M4PF4PB7PP0YAEfl23oEgOQEZLKH2NRV7T5/AhHzph+LoIab0IQnIeXQBEoYbp5TEqusqIV+jFtRgoq4dqsMY0nVPtB+XJn0DoCDF5daZFiSNmVycNsGSLHwgZj/hkRCC+sy0P00AIO9OW0v8hge53bcp36Ndk2sQRyCdFrSQJTThsTUW+6MPk+uQBMTh+E7NmkFBs7GEPrwa5VT0wBDyKpQFmEfX6pkdFDRrJ3Z5eOiK9shoAiNWAlkQCwnu8Ii1QBaIIFFFeMRJIAtmIAHrRlhFeMRZACmVABFWER5hEUBKJPJwDo+wCSAECZbwCKsAYiDBFh6hlhLlJDAt+UcM9VUMTLAK/C2VWpwLwE34JrF+nc+DpRRnGYHSl1Q+LCPhLGDyhuUoAItwKyUI5YFLAajDvpizqG2qkLArpx0KM24J+q4EQ1XJKUGaxHLRZ6kqxcHoRj+xdyZgCG0VSmpDti8prYTomK5MNAEhw5yz9h8jGolKHiHF/daxez2fJyHSgXF/ICLnZ7cgZUf9wt2DK66qMptfUDtWWzdqS2X8DB6Px+PxeDzV8w3rVU5UUpgYQQAAAABJRU5ErkJggg==" alt="Close">
+        </button>
+    </div>
+</div>
         <a class="demo-btn" href="#" data-game-url="https://demo.evoplay.games/demo/fullstate/html5/evoplay/thegreatestcatchbonusbuy"
             target="gameIframe">
             <picture>
@@ -150,13 +160,7 @@ money tornado or something</p>
             </picture>
         </a>
         
-        <div class="ifram-wrapper">
-            <iframe id="gameIframe" style="display: none; width: 100%; height: 600px; border: none; margin-top: 20px;"></iframe>
-        
-            <button id="closeIframeBtn" aria-label="Close" class="hidden-close-btn">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAH6SURBVHgB7ZgxTsMwFIafU3WgU29AjlBAVGKiPQF0qwIDN0CcgHICuEGZWiSG0hNUTEig0h4h3ICFLlVi/CIEVZU4fvbLgORvauI6+r84dl4M4PF4PB7PP0YAEfl23oEgOQEZLKH2NRV7T5/AhHzph+LoIab0IQnIeXQBEoYbp5TEqusqIV+jFtRgoq4dqsMY0nVPtB+XJn0DoCDF5daZFiSNmVycNsGSLHwgZj/hkRCC+sy0P00AIO9OW0v8hge53bcp36Ndk2sQRyCdFrSQJTThsTUW+6MPk+uQBMTh+E7NmkFBs7GEPrwa5VT0wBDyKpQFmEfX6pkdFDRrJ3Z5eOiK9shoAiNWAlkQCwnu8Ii1QBaIIFFFeMRJIAtmIAHrRlhFeMRZACmVABFWER5hEUBKJPJwDo+wCSAECZbwCKsAYiDBFh6hlhLlJDAt+UcM9VUMTLAK/C2VWpwLwE34JrF+nc+DpRRnGYHSl1Q+LCPhLGDyhuUoAItwKyUI5YFLAajDvpizqG2qkLArpx0KM24J+q4EQ1XJKUGaxHLRZ6kqxcHoRj+xdyZgCG0VSmpDti8prYTomK5MNAEhw5yz9h8jGolKHiHF/daxez2fJyHSgXF/ICLnZ7cgZUf9wt2DK66qMptfUDtWWzdqS2X8DB6Px+PxeDzV8w3rVU5UUpgYQQAAAABJRU5ErkJggg==" alt="Close">
-            </button>
-        </div>
+    
     </div>
 </section>
 
